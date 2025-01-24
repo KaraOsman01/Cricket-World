@@ -1,0 +1,136 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Poster Styles */
+.poster {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header Section */
+.header {
+    background-color: #ff5733; /* Bright, energetic color */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Body Section */
+.body {
+    padding: 20px;
+    text-align: center;
+}
+
+.body p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.body p strong {
+    font-size: 20px;
+    color: #ff5733;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+     height: 270px;
+}
+
+.footer p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.social-icons .logo {
+	 position: absolute;
+	right: 330px;
+	top: 400px;
+	height: 100px;
+	width: 100px;
+	      }
+
+.social-icons .insta {
+         position: absolute;
+	left: 320px;
+	top: 400px;
+	height: 30px;
+	width: 30px;
+		}
+.social-icons p {
+	position: absolute;
+	left: 348px;
+	top: 405px;
+		}
+
+.social-icons .youtube {
+         position: absolute;
+	left: 320px;
+	top: 440px;
+	height: 30px;
+	width: 30px;
+		}
+
+.social-icons  .UT {
+	position: absolute;
+	left: 348px;
+	top: 445px;
+	font-size: 17px;
+		}
+
+.social-icons .facebook {
+         position: absolute;
+	left: 320px;
+	top: 480px;
+	height: 30px;
+	width: 30px;
+		}
+.social-icons  .FB {
+	position: absolute;
+	left: 348px;
+	top: 485px;
+	font-size: 17px;
+		}
+
+.subscribe {
+     color: #ff0000;
+     text-align: center;
+            }
