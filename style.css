@@ -134,3 +134,15 @@ body {
      color: #ff0000;
      text-align: center;
             }
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px;
+    }
+    .body p {
+        font-size: 16px;
+    }
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
