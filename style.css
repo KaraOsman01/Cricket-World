@@ -81,14 +81,14 @@ body {
 }
 
 .social-icons .logo {
-	 position: absolute;
+	/* position: absolute;
 	right: 330px;
-	top: 400px;
-	height: 100px;
-	width: 100px;
+	top: 400px;*/
+	height: 100%;
+	width: 100%;
 	      }
 
-.social-icons .insta {
+/*.social-icons .insta {
          position: absolute;
 	left: 320px;
 	top: 400px;
@@ -128,13 +128,13 @@ body {
 	left: 348px;
 	top: 485px;
 	font-size: 17px;
-		}
+		}*/
 
 .subscribe {
      color: #ff0000;
      text-align: center;
             }
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .header h1 {
         font-size: 24px;
     }
@@ -157,4 +157,4 @@ body {
         width: 30px;
         height: 30px;
     }
-}
+}*/
