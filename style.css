@@ -81,13 +81,17 @@ body {
 }
 
 .social-icons .logo {
-	 /*position: absolute;
-	right: 330px;
-	top: 400px;*/
-	height: 70%;
-	width: 70%;
+	 display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 100px; 
+    height: auto;
 	      }
-
+media (max-width: 480px) {
+    .logo {
+        max-width: 80px; 
+    }
+}
 /*.social-icons .insta {
          position: absolute;
 	left: 320px;
