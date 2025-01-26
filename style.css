@@ -70,7 +70,7 @@ body {
     display: inline-block;
 }
 
-.social-icons img .logo {
+.social-icons img  {
     width: 70px;
     height: 70px;
     transition: transform 0.3s ease;
