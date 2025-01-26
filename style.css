@@ -80,13 +80,13 @@ body {
     transform: scale(1.1);
 }
 
-/*.social-icons .logo {
-	 position: absolute;
+.social-icons .logo {
+	 /*position: absolute;
 	right: 330px;
-	top: 400px;
+	top: 400px;*/
 	height: 80px;
 	width: 80px;
-	      }*/
+	      }
 
 /*.social-icons .insta {
          position: absolute;
